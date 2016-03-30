@@ -6,6 +6,10 @@ public class LazySingleton {
     // volatile guarantees the write happens before the read.
     // See section 16.2.4 of the "Java Concurrency In Practice" book.
 
+    // Another explaination:
+    // A good resource for understanding why volatile is needed comes from the JCIP book. Wikipedia has a decent explanation of that material as well.
+    // The real problem is that Thread A may assign a memory space for instance before it is finished constructing instance. Thread B will see that assignment and try to use it. This results in Thread B failing because it is using a partially constructed version of instance.
+
     private LazySingleton() {
     }
 
