@@ -7,4 +7,6 @@
    - Factory Method Pattern
    - Abstract Factory Pattern
 5. Singleton Pattern
+6. Command Pattern
+
 
