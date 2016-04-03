@@ -8,5 +8,7 @@
    - Abstract Factory Pattern
 5. Singleton Pattern
 6. Command Pattern
-
-
+7. Adapter Pattern
+   - Object Adapter Pattern
+   - Class Adapter Pattern
+8. Facade Pattern
