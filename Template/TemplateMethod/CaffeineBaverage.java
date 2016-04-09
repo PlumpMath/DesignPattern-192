@@ -8,16 +8,19 @@ public abstract class CaffeineBaverage {
         addCondiments();
     }
 
-    public void boilWater() {
+    protected final void boilWater() {
         System.out.println("Boiling Water");
     }
 
-    public void pourInCup() {
+    protected final void pourInCup() {
         System.out.println("Pouring into cup");
     }
 
-    public abstract void brew();
+    protected abstract void brew();
 
-    public abstract void addCondiments();
+    protected abstract void addCondiments();
 
+    // Hook Method
+    void hook() {
+    }
 }
