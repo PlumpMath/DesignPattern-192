@@ -1,7 +1,7 @@
 public abstract class CaffeineBaverage {
 
     // Template Method
-    public void prepareRecipe() {
+    protected final void prepareRecipe() {
         boilWater();
         brew();
         pourInCup();
@@ -16,6 +16,8 @@ public abstract class CaffeineBaverage {
         System.out.println("Pouring into cup");
     }
 
-    public cl
+    public abstract void brew();
+
+    public abstract void addCondiments();
 
 }
