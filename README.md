@@ -12,3 +12,6 @@
    - Object Adapter Pattern
    - Class Adapter Pattern
 8. Facade Pattern
+9. Template Pattern
+10. Iterator Pattern
+11. Composite Pattern
